@@ -6,7 +6,7 @@ const port = 8000;
 app.use(express.json());
 
 app.get("/", (_req, res) => {
-  res.send('Hello, welcome to the Classroom API!');
+  res.send("Hello, welcome to the Classroom API!");
 });
 
 app.listen(port, () => {
